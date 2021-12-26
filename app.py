@@ -584,5 +584,4 @@ def update_figure(years):
 
 
 if __name__ == "__main__":
-    #app.run_server(port=8888)
-    app.run_server(mode="inline", debug=True)
+    app.run_server(port=8888)
