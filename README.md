@@ -42,9 +42,9 @@ We added the type of plot you want Bar or Line.
 4- Last Page shows Career plans the employees Choose for each year, most of the employees choose 'Stay with the same employer, same role' among all the years.
 
 
-- Tools used:
+Tools used:
   python language, Bootstrap and plotly
   
   
-- The assignment was submitted via two platforms SDA and Coding Dojo  
+The assignment was submitted via two platforms SDA and Coding Dojo  
 
