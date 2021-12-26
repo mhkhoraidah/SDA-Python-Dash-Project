@@ -30,6 +30,7 @@ the title of the job, the gender of each job, and plans career.
 
 
 - Dashboard:
+
 1- First Page Show The average salary of what you choose from the sidebar Country or Employment Sector, Employment Status...etc.
 Based on the operation you choose Count the people or average or amount, as you can show All the countries or you just choose the countries you want for specific.
 We added the type of plot you want Bar or Line.
