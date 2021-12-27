@@ -6,8 +6,12 @@ import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
 from jupyter_dash import JupyterDash
-import dash_core_components as dcc
-import dash_html_components as html
+
+#import dash_core_components as dcc
+from dash import dcc
+
+#import dash_html_components as html
+from dash import html
 from dash.dependencies import Input, Output
 
 import dash
@@ -40,7 +44,7 @@ df['Gender'] = df['Gender'].fillna('Unknown')
 df['Gender'] = df['Gender'].replace(['None'], 'Unknown')
 
 
-print(df['YearsWithThisTypeOfJob'].unique())
+#print(df['YearsWithThisTypeOfJob'].unique())
 df.loc[df['YearsWithThisTypeOfJob'] > 45] = np.nan
 
 
