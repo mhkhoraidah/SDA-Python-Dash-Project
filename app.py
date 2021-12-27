@@ -2,17 +2,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
-
 import plotly.express as px
 import plotly.graph_objects as go
 from jupyter_dash import JupyterDash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
 from dash.dependencies import Input, Output
-
 import dash
 import dash_bootstrap_components as dbc
-#from dash.dependencies import Input, Output
 from dash import Input, Output, dcc, html
 
 
@@ -40,7 +37,7 @@ df['Gender'] = df['Gender'].fillna('Unknown')
 df['Gender'] = df['Gender'].replace(['None'], 'Unknown')
 
 
-print(df['YearsWithThisTypeOfJob'].unique())
+#print(df['YearsWithThisTypeOfJob'].unique())
 df.loc[df['YearsWithThisTypeOfJob'] > 45] = np.nan
 
 
@@ -584,4 +581,4 @@ def update_figure(years):
 
 
 if __name__ == "__main__":
-    app.run_server(port=8888)
+    app.run_server(debug=True)
