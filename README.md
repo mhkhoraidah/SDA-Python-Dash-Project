@@ -1,7 +1,7 @@
 # SDA-Python-Dash-Project
 
 Coders Arm Team:
-- Mustafa
+- Mustafa Khoraidah
   https://github.com/mhkhoraidah
   
 - Hala Alsouly: 
