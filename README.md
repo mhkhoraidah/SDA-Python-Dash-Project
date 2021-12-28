@@ -18,6 +18,9 @@ Coders Arm Team:
   
 ## Deploy on Heroku (View Dashboard):
 https://sda-python-dash-project.herokuapp.com
+
+## Code and Documentation
+[Project Jupyter Notebook](https://github.com/mhkhoraidah/SDA-Python-Dash-Project/blob/master/Notebook.ipynb) for more info
   
 ## About The Dataset:
 This dataset is a survey from 2017 to 2021 for employees working in the data field. This survey asks employees about their salaries, 
@@ -38,9 +41,8 @@ We added the type of plot you want Bar or Line.
 4- Last Page shows Career plans the employees Choose for each year, most of the employees choose 'Stay with the same employer, same role' among all the years.
 
 
-Tools used:
+Tools Used:
   python language, Bootstrap and plotly
   
-  
-The assignment was submitted via two platforms SDA and Coding Dojo  
-
+## Project Assign by:
+[SDA](https://sda.edu.sa) (Saudi Digital Acadimy) in the [Data Governance Program](https://github.com/mhkhoraidah/SDA-Python-Dash-Project/files/7786003/Data.Governance.Program.Calendar.pdf) (Data Science Bootcamp) partner with [Coding Dojo](https://www.codingdojo.com) for the week 9 in the Bootcamp.
